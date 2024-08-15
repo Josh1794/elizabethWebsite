@@ -2,6 +2,7 @@ import { Open_Sans } from 'next/font/google';
 import styles from './page.module.css';
 import './globals.css';
 import Link from 'next/link';
+import { redirect } from 'next/navigation';
 
 const inter = Open_Sans({ subsets: ['latin'] });
 
