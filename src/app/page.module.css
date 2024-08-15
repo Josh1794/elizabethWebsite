@@ -17,10 +17,8 @@
 
 .body {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   background-color: whitesmoke;
+  padding-top: 100px;
 }
 
 /* Tablet and Smaller Desktop */
@@ -52,4 +50,26 @@
     align-items: center;
     background-color: whitesmoke;
   }
+}
+
+.bodySection {
+  background-color: blue;
+  height: 100%;
+  width: 100%;
+}
+
+.navigation a {
+  color: black;
+  padding: 10px;
+  transition: 0.5s;
+}
+
+.navigation a:hover {
+  color: rgb(100, 100, 100);
+}
+
+.navigation h3 {
+  font-weight: 400;
+  font-size: 1.5rem;
+  padding-bottom: 15px;
 }

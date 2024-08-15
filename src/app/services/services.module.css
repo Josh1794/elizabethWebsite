@@ -1,0 +1,13 @@
+.layout {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.aboutTitle {
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.aboutBody {
+  padding: 20px;
+}
