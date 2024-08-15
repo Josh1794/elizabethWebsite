@@ -1,0 +1,24 @@
+.layout {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.homeTitle {
+  font-weight: 300;
+
+  animation: titleAnimation 4s forwards;
+}
+
+@keyframes titleAnimation {
+  0% {
+    opacity: 0;
+    transform: scaleX(1.1);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
