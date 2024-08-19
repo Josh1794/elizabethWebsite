@@ -8,7 +8,6 @@
 
 .homeTitle {
   font-weight: 300;
-
   animation: titleAnimation 4s forwards;
 }
 
@@ -21,4 +20,9 @@
   100% {
     opacity: 1;
   }
+}
+
+.homeSubTitle {
+  padding: 50px;
+  animation: titleAnimation 4s forwards;
 }
