@@ -3,11 +3,24 @@
   padding-right: 1rem;
 }
 
-.aboutTitle {
+.contactTitle {
   font-weight: 300;
   font-size: 40px;
 }
 
-.aboutBody {
+.contactSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
   padding: 20px;
+}
+
+.contactBody {
+  padding-right: 20px;
+}
+
+.contactBodyLink:hover {
+  color: blue;
+  text-decoration: underline;
+  transition: 0.5s;
 }
