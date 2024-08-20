@@ -8,6 +8,10 @@
   font-size: 40px;
 }
 
+.contactBody {
+  padding: 20px;
+}
+
 .contactSection {
   display: flex;
   flex-direction: row;
@@ -15,7 +19,7 @@
   padding: 20px;
 }
 
-.contactBody {
+.contactEmail {
   padding-right: 20px;
 }
 

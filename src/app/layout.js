@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <div className={styles.layout}>
           <div className={styles.navigation}>
-            <h3>Elizabeth Treimanis</h3>
+            <h3 className={styles.navigationTitle}>Elizabeth Treimanis</h3>
             <Link href='/home'>Home</Link>
             <Link href='/about'>About</Link>
             <Link href='/services'>Services</Link>

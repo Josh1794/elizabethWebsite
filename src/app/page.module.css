@@ -52,6 +52,10 @@
   }
 }
 
+.navigationTitle:hover {
+  cursor: default;
+}
+
 .bodySection {
   background-color: blue;
   height: 100%;
