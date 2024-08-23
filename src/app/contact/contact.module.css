@@ -22,9 +22,3 @@
 .contactEmail {
   padding-right: 20px;
 }
-
-.contactBodyLink:hover {
-  color: blue;
-  text-decoration: underline;
-  transition: 0.5s;
-}

@@ -7,7 +7,7 @@
 }
 
 .navigation {
-  width: 25%;
+  width: 25vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,9 +16,14 @@
 }
 
 .body {
-  width: 100%;
+  width: 75vw;
+  padding-left: 1rem;
+  /* height: 100vh; */
   background-color: whitesmoke;
   padding-top: 100px;
+  overflow: scroll;
+  margin: 0px;
+  padding-bottom: 1rem;
 }
 
 /* Tablet and Smaller Desktop */
@@ -26,9 +31,6 @@
   .layout {
     display: flex;
     flex-direction: column;
-    height: 100vh;
-    width: 100vw;
-    color: black;
   }
 
   .navigation {
@@ -49,6 +51,11 @@
     flex-direction: column;
     align-items: center;
     background-color: whitesmoke;
+    overflow: scroll;
+  }
+  .navigationTitle {
+    position: absolute;
+    visibility: hidden;
   }
 }
 
@@ -66,10 +73,6 @@
   color: black;
   padding: 10px;
   transition: 0.5s;
-}
-
-.navigation a:hover {
-  color: rgb(190, 85, 183);
 }
 
 .navigation h3 {

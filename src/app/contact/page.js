@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './contact.module.css';
 
 export default function ContactPage() {
@@ -10,12 +11,12 @@ export default function ContactPage() {
       </p>
       <div className={styles.contactSection}>
         <p className={styles.contactEmail}>Email:</p>
-        <a
+        <Link
           className={styles.contactBodyLink}
           href='mailto: elizabeth.treimanis.events@gmail.com'
         >
           elizabeth.treimanis.events@gmail.com
-        </a>
+        </Link>
       </div>
     </div>
   );
